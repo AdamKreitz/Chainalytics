@@ -1,4 +1,4 @@
-base_url='https://glacier-api.avax.network/v1/networks/mainnet/blockchains/p-chain/blocks/'
+base_url='https://glacier-api.avax.network/v1/networks/mainnet/blockchains/c-chain/blocks/'
 output_file='response.json'
 
 for ((block_number=31962743; block_number>=31957743; block_number--)); do
