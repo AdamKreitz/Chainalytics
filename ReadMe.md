@@ -1,11 +1,15 @@
-Glacier API - Accessing Block Ranges on EVM Chains
+## Glacier API - Accessing Block Ranges on EVM Chains
+
 This repository provides an example implementation for accessing block ranges on EVM (Ethereum Virtual Machine) chains using the Glacier API. The Glacier API allows you to interact with various blockchain networks and retrieve specific block information.
 
-Prerequisites
-Python 3.x
-requests library (pip install requests)
-jq command-line JSON processor (Installation instructions can be found here)
-Usage
+### Prerequisites
+
+- Python 3.x
+- requests library (pip install requests)
+- jq command-line JSON processor (Installation instructions can be found here)
+
+### Usage
+
 Clone the repository:
 
 git clone https://github.com/your-username/glacier-api-example.git
@@ -31,6 +35,7 @@ This will query the last 5000 (or depending on the range you specify) blocks ind
 
 Analyze the JSON data in the response.json file according to your requirements.
 
-License
+### License
+
 This project is licensed under the MIT License.
 
